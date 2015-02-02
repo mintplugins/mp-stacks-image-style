@@ -79,7 +79,7 @@ function mp_stacks_image_style_meta_options( $items_array ){
 				array(
 					'field_id'			=> 'brick_main_image_shadow_x',
 					'field_title' 	=> __( 'X Offset', 'mp_stacks'),
-					'field_description' 	=> 'Set the shadow offset horizontally.',
+					'field_description' 	=> 'Set the shadow offset horizontally. 50 is directly beneath the icon horizontally.',
 					'field_type' 	=> 'input_range',
 					'field_value' => '50',
 					'field_showhider' => 'brick_main_image_dropshadow_showhider',
@@ -87,7 +87,7 @@ function mp_stacks_image_style_meta_options( $items_array ){
 				array(
 					'field_id'			=> 'brick_main_image_shadow_y',
 					'field_title' 	=> __( 'Y Offset', 'mp_stacks'),
-					'field_description' 	=> 'Set the shadow offset vertically.',
+					'field_description' 	=> 'Set the shadow offset vertically. 50 is directly beneath the icon vertically.',
 					'field_type' 	=> 'input_range',
 					'field_value' => '50',
 					'field_showhider' => 'brick_main_image_dropshadow_showhider',
@@ -96,14 +96,6 @@ function mp_stacks_image_style_meta_options( $items_array ){
 					'field_id'			=> 'brick_main_image_shadow_blur',
 					'field_title' 	=> __( 'Shadow Blur', 'mp_stacks'),
 					'field_description' 	=> 'Set the shadow\'s blurriness.',
-					'field_type' 	=> 'input_range',
-					'field_value' => '50',
-					'field_showhider' => 'brick_main_image_dropshadow_showhider',
-				),
-				array(
-					'field_id'			=> 'brick_main_image_shadow_spread',
-					'field_title' 	=> __( 'Shadow Spread', 'mp_stacks'),
-					'field_description' 	=> 'Set the size of the shadow.',
 					'field_type' 	=> 'input_range',
 					'field_value' => '50',
 					'field_showhider' => 'brick_main_image_dropshadow_showhider',
@@ -121,7 +113,7 @@ function mp_stacks_image_style_meta_options( $items_array ){
 					'field_title' 	=> __( 'Shadow Opacity', 'mp_stacks'),
 					'field_description' 	=> 'Set the opacity of the shadow.',
 					'field_type' 	=> 'input_range',
-					'field_value' => '50',
+					'field_value' => '100',
 					'field_showhider' => 'brick_main_image_dropshadow_showhider',
 				),
 	);

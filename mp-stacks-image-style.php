@@ -149,7 +149,7 @@ function mp_stacks_image_style_include_files(){
 		 */
 		if ( function_exists('mp_stacks_developer_textdomain') ){
 			function mp_stacks_image_style_add_active( $required_add_ons ){
-				$required_add_ons['mp_stacks_main_image_lightbox'] = 'MP Stacks + Image Style';
+				$required_add_ons['mp_stacks_image_style'] = 'MP Stacks + Image Style';
 				return $required_add_ons;
 			}
 			add_filter( 'mp_stacks_active_add_ons', 'mp_stacks_image_style_add_active' );

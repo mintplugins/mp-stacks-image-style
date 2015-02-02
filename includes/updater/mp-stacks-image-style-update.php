@@ -24,7 +24,7 @@
 		$args = array(
 			'software_name' => 'MP Stacks + Image Style', //<- The exact name of this Plugin. Make sure it matches the title in your mp_stacks-text, text, and the WP.org stacks-text
 			'software_api_url' => 'http://mintplugins.com',//The URL where Text and mp_stacks-text are installed and checked
-			'software_filename' => 'mp-stacks-main-image-lightbox.php',
+			'software_filename' => 'mp-stacks-image-style.php',
 			'software_licensed' => false, //<-Boolean
 		);
 		
