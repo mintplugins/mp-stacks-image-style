@@ -60,62 +60,7 @@ function mp_stacks_image_style_meta_options( $items_array ){
 					'field_value' => '100',
 					'field_showhider' => 'brick_main_image_stroke_showhider',
 				),
-			array(
-				'field_id'			=> 'brick_main_image_dropshadow_showhider',
-				'field_title' 	=> __( 'Drop Shadow', 'mp_stacks'),
-				'field_description' 	=> 'Set the Drop Shadow for this image.',
-				'field_type' 	=> 'showhider',
-				'field_value' => '0',
-				'field_showhider' => 'brick_main_image_style_showhider',
-			),
-				array(
-					'field_id'			=> 'brick_main_image_shadow_enabled',
-					'field_title' 	=> __( 'Enable Drop Shadow', 'mp_stacks'),
-					'field_description' 	=> 'Do you want to enable the drop shadow on this image?',
-					'field_type' 	=> 'checkbox',
-					'field_value' => '',
-					'field_showhider' => 'brick_main_image_dropshadow_showhider',
-				),
-				array(
-					'field_id'			=> 'brick_main_image_shadow_x',
-					'field_title' 	=> __( 'X Offset', 'mp_stacks'),
-					'field_description' 	=> 'Set the shadow offset horizontally. 50 is directly beneath the icon horizontally.',
-					'field_type' 	=> 'input_range',
-					'field_value' => '50',
-					'field_showhider' => 'brick_main_image_dropshadow_showhider',
-				),
-				array(
-					'field_id'			=> 'brick_main_image_shadow_y',
-					'field_title' 	=> __( 'Y Offset', 'mp_stacks'),
-					'field_description' 	=> 'Set the shadow offset vertically. 50 is directly beneath the icon vertically.',
-					'field_type' 	=> 'input_range',
-					'field_value' => '50',
-					'field_showhider' => 'brick_main_image_dropshadow_showhider',
-				),
-				array(
-					'field_id'			=> 'brick_main_image_shadow_blur',
-					'field_title' 	=> __( 'Shadow Blur', 'mp_stacks'),
-					'field_description' 	=> 'Set the shadow\'s blurriness.',
-					'field_type' 	=> 'input_range',
-					'field_value' => '50',
-					'field_showhider' => 'brick_main_image_dropshadow_showhider',
-				),
-				array(
-					'field_id'			=> 'brick_main_image_shadow_color',
-					'field_title' 	=> __( 'Shadow Color', 'mp_stacks'),
-					'field_description' 	=> 'Set the color of the shadow.',
-					'field_type' 	=> 'colorpicker',
-					'field_value' => '#000',
-					'field_showhider' => 'brick_main_image_dropshadow_showhider',
-				),
-				array(
-					'field_id'			=> 'brick_main_image_shadow_opacity',
-					'field_title' 	=> __( 'Shadow Opacity', 'mp_stacks'),
-					'field_description' 	=> 'Set the opacity of the shadow.',
-					'field_type' 	=> 'input_range',
-					'field_value' => '100',
-					'field_showhider' => 'brick_main_image_dropshadow_showhider',
-				),
+			
 	);
 	
 	return mp_core_insert_meta_fields( $items_array, $new_fields, 'brick_main_image_lightbox_height' );
