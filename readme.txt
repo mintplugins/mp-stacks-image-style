@@ -3,8 +3,8 @@ Contributors: johnstonphilip
 Donate link: http://mintplugins.com/
 Tags: message bar, header
 Requires at least: 3.6
-Tested up to: 4.1
-Stable tag: 1.0.0.1
+Tested up to: 4.3
+Stable tag: 1.0.0.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -32,8 +32,11 @@ See full instructions at http://mintplugins.com/doc/mp-stacks
 
 == Changelog ==
 
-= 1.0.0.1 = February 2, 2014
+= 1.0.0.2 = September 21, 2015
+* Plugin Installer up to date with MP Core 1.0.2.1
+
+= 1.0.0.1 = February 2, 2015
 * Removed Shadows. This is now handled through the MP Stacks + Shadows addon.
 
-= 1.0.0.0 = February 2, 2014
+= 1.0.0.0 = February 2, 2015
 * Original release
